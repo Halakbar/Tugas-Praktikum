@@ -1,0 +1,64 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <title>Form</title>
+</head>
+<body>
+  <header>
+   <p><center><h2>Pesan Makan & Minum</h2></center></p>
+  </header>
+  <p><h3>Masukkan Informasi</h3></p>
+  <form action="Form.php" method="post">
+    <div>
+      <input type="text" name="nama" id="nama" placeholder="Nama anda" />
+    </div><br />
+    <div>
+      <input type="text" name="No.Hp" id="No. Hp" placeholder="No. Hp" />
+    </div><br />
+    <div>
+      <input type="email" name="email" id="email" placeholder="Masukkan email" />
+    </div><br />
+  </form>
+  <p><h3>Daftar Makanan</h3></p>
+  <div>
+    <form action="/action_page.php" >
+    <p>Daftar makanan:</p>
+    <input type="checkbox" name="Nasi goreng" id="Nasi goreng" value="Nasi goreng"/>
+      <label for="Nasi goreng">Nasi goreng</label><br />
+      <input type="checkbox" name="Ayam pelecing" id="Ayam pelecing" value="Ayam pelecing"/>
+      <label for="Ayam pelecing">Ayam pelecing</label><br />
+      <input type="checkbox" name="Sate ayam" id="Sate ayam" value="Sate ayam"/>
+      <label for="Sate ayam">Sate ayam</label><br />
+      <input type="checkbox" name="Sate kambing" id="Sate kambing" value="Sate kambing"/>
+      <label for="Sate kambing">Sate kambing</label><br />
+      <input type="checkbox" name="Soto ayam" id="Soto ayam" value="Soto ayam"/>
+      <label for="Soto ayam">Soto ayam</label><br />
+      <input type="checkbox" name="Soto kambing" id="Soto kambing" value="Soto kambing"/>
+      <label for="Soto kambing">Soto kambing</label><br />
+  </div><br />
+  <textarea type="text" name="catatan" rows="7" cols="26" placeholder="catatan" ></textarea>
+  <p><h3>Daftar Minuman</h3></p>
+  <div>
+    <form action="/action_page.php" >
+      <p>Daftar minuman:</p>
+      <input type="checkbox" name="teh hangat" id="teh hangat" value="teh hangat"/>
+      <label for="teh hangat">teh hangat</label><br /> 
+      <input type="checkbox" name="teh dingin" id="teh dingin" value="teh dingin"/>
+      <label for="teh dingin">teh dingin</label><br />
+      <input type="checkbox" name="kopi hangat" id="kopi hangat" value="kopi hangat"/>
+      <label for="kopi hangat">kopi hangat</label><br />
+      <input type="checkbox" name="kopi dingin" id="kopi dingin" value="kopi dingin"/>
+      <label for="kopi dingin">kopi dingin</label><br />
+      <input type="checkbox" name="jus jeruk" id="jus jeruk" value="jus jeruk"/>
+      <label for="jus jeruk">jus jeruk</label><br />
+      <input type="checkbox" name="jus apel" id="jus apel" value="jus apel"/>
+      <label for="jus apel">jus apel</label><br />
+      <input type="checkbox" name="jus alpukat" id="jus alpukat" value="jus alpukat"/>
+      <label for="jus alpukat">jus alpukat</label><br />
+  </div><br />
+  <textarea type="text" name="catatan" rows="7" cols="26" placeholder="catatan" ></textarea>
+  </div><br />
+  <input type="submit" value="Submit" />
+</body>
+</html>
